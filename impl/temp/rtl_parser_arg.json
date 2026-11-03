@@ -1,0 +1,52 @@
+{
+    "Device": "GW2A-55C",
+    "Files": [
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/adc.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/encoder.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/key_filter.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/motor_ctrl.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/pid.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/sin_wave.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/top.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/uart.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/uart_rx.v",
+            "Type": "verilog"
+        },
+        {
+            "Path": "C:/Users/钟宝飞/Desktop/代码包/src/uart_tx.v",
+            "Type": "verilog"
+        }
+    ],
+    "IncludePath": [
+    ],
+    "LoopLimit": 2000,
+    "ResultFile": "C:/Users/钟宝飞/Desktop/代码包/impl/temp/rtl_parser.result",
+    "Top": "top",
+    "VerilogStd": "verilog_2001",
+    "VhdlStd": "vhdl_93"
+}

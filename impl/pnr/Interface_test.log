@@ -1,0 +1,31 @@
+Reading netlist file: "D:\Baidu\j280\impl\gwsynthesis\Interface_test.vg"
+Parsing netlist file "D:\Baidu\j280\impl\gwsynthesis\Interface_test.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Baidu\j280\src\fo_rip_top.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'clk_50m' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Baidu\j280\impl\pnr\Interface_test.power.html" completed
+Generate file "D:\Baidu\j280\impl\pnr\Interface_test.pin.html" completed
+Generate file "D:\Baidu\j280\impl\pnr\Interface_test.rpt.html" completed
+Generate file "D:\Baidu\j280\impl\pnr\Interface_test.rpt.txt" completed
+Generate file "D:\Baidu\j280\impl\pnr\Interface_test.tr.html" completed
+Generate file "D:\Baidu\j280\impl\pnr\Interface_test.tr" completed
+Sat Oct 31 08:40:09 2026
+

@@ -1,0 +1,90 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Baidu\j280\src\adc.v'
+Analyzing Verilog file 'D:\Baidu\j280\src\encoder.v'
+Analyzing Verilog file 'D:\Baidu\j280\src\key_filter.v'
+Analyzing Verilog file 'D:\Baidu\j280\src\motor_ctrl.v'
+Analyzing Verilog file 'D:\Baidu\j280\src\pid.v'
+Analyzing Verilog file 'D:\Baidu\j280\src\sin_wave.v'
+Analyzing Verilog file 'D:\Baidu\j280\src\top.v'
+WARN  (EX3788) : Block identifier is required on this block("D:\Baidu\j280\src\top.v":55)
+WARN  (EX2510) : Illegal leading underscore character in based number '_2_500_000'("D:\Baidu\j280\src\top.v":326)
+WARN  (EX3680) : Concatenation with an unsized literal will be treated as 32 bits("D:\Baidu\j280\src\top.v":85)
+Analyzing Verilog file 'D:\Baidu\j280\src\uart.v'
+WARN  (EX3801) : Parameter 'UART_BPS' becomes localparam in 'uart' with formal parameter declaration list("D:\Baidu\j280\src\uart.v":21)
+WARN  (EX3801) : Parameter 'CLK_FREQ' becomes localparam in 'uart' with formal parameter declaration list("D:\Baidu\j280\src\uart.v":22)
+WARN  (EX3801) : Parameter 'SEN_CNT_MAX' becomes localparam in 'uart' with formal parameter declaration list("D:\Baidu\j280\src\uart.v":23)
+WARN  (EX3801) : Parameter 'SEN_BYTE_CNT' becomes localparam in 'uart' with formal parameter declaration list("D:\Baidu\j280\src\uart.v":24)
+Analyzing Verilog file 'D:\Baidu\j280\src\uart_rx.v'
+Analyzing Verilog file 'D:\Baidu\j280\src\uart_tx.v'
+WARN  (EX3073) : Port 'adc_otr' remains unconnected for this instance("D:\Baidu\j280\src\top.v":78)
+WARN  (EX3073) : Port 'out_p' remains unconnected for this instance("D:\Baidu\j280\src\top.v":417)
+Compiling module 'top'("D:\Baidu\j280\src\top.v":1)
+Compiling module 'key_filter'("D:\Baidu\j280\src\key_filter.v":1)
+Compiling module 'adc'("D:\Baidu\j280\src\adc.v":1)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Baidu\j280\src\top.v":88)
+Compiling module 'pid(KP=750,KI=0,KD=4250,OUT_MAX=150,D_MAX=150,INT_LIM=5000)'("D:\Baidu\j280\src\pid.v":21)
+WARN  (EX3791) : Expression size 30 truncated to fit in target size 16("D:\Baidu\j280\src\top.v":225)
+Compiling module 'sin_wave(A=16'd400,B=16'd128)'("D:\Baidu\j280\src\sin_wave.v":19)
+WARN  (EX3791) : Expression size 31 truncated to fit in target size 16("D:\Baidu\j280\src\sin_wave.v":315)
+WARN  (EX3791) : Expression size 18 truncated to fit in target size 16("D:\Baidu\j280\src\sin_wave.v":345)
+Compiling module 'pid(KP=800,KI=0,KD=2000,INT_LIM=2000)'("D:\Baidu\j280\src\pid.v":21)
+Compiling module 'motor_ctrl'("D:\Baidu\j280\src\motor_ctrl.v":1)
+WARN  (EX3791) : Expression size 13 truncated to fit in target size 12("D:\Baidu\j280\src\motor_ctrl.v":28)
+WARN  (EX3791) : Expression size 21 truncated to fit in target size 16("D:\Baidu\j280\src\motor_ctrl.v":33)
+WARN  (EX3670) : Actual bit length 10 differs from formal bit length 16 for port 'duty_out'("D:\Baidu\j280\src\top.v":500)
+Compiling module 'encoder'("D:\Baidu\j280\src\encoder.v":2)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Baidu\j280\src\encoder.v":61)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Baidu\j280\src\encoder.v":62)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Baidu\j280\src\encoder.v":63)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Baidu\j280\src\encoder.v":64)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Baidu\j280\src\encoder.v":66)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Baidu\j280\src\encoder.v":67)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Baidu\j280\src\encoder.v":68)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("D:\Baidu\j280\src\encoder.v":69)
+Compiling module 'uart'("D:\Baidu\j280\src\uart.v":1)
+Compiling module 'uart_tx(UART_BPS=21'b000011100001000000000,CLK_FREQ=26'b10111110101111000010000000)'("D:\Baidu\j280\src\uart_tx.v":3)
+NOTE  (EX0101) : Current top module is "top"
+WARN  (EX0211) : The output port "data_out[15]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[14]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[13]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[12]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[11]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[10]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[9]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[8]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[7]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[6]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[5]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[4]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[3]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[2]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[1]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "data_out[0]" of module "uart" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\uart.v":17)
+WARN  (EX0211) : The output port "test" of module "top" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Baidu\j280\src\top.v":33)
+[5%] Running netlist conversion ...
+WARN  (CV0018) : Input key_sw[3] is unused("D:\Baidu\j280\src\top.v":6)
+WARN  (CV0016) : Input uart_rx is unused("D:\Baidu\j280\src\top.v":9)
+WARN  (CV0016) : Input enc2_a is unused("D:\Baidu\j280\src\top.v":21)
+WARN  (CV0016) : Input enc2_b is unused("D:\Baidu\j280\src\top.v":22)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "key_filter" instantiated to "[3].key_filter_inst" is swept in optimizing("D:\Baidu\j280\src\top.v":53)
+WARN  (NL0002) : The module "encoder" instantiated to "encoder_2" is swept in optimizing("D:\Baidu\j280\src\top.v":547)
+WARN  (NL0002) : The module "motor_ctrl" instantiated to "motor_ctrl_A" is swept in optimizing("D:\Baidu\j280\src\top.v":507)
+[95%] Generate netlist file "D:\Baidu\j280\impl\gwsynthesis\Interface_test.vg" completed
+[100%] Generate report file "D:\Baidu\j280\impl\gwsynthesis\Interface_test_syn.rpt.html" completed
+GowinSynthesis finish

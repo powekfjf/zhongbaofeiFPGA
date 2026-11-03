@@ -1,0 +1,134 @@
+[
+    {
+        "InstFile": "D:/Baidu/j280/src/top.v",
+        "InstLine": 1,
+        "InstName": "top",
+        "ModuleFile": "D:/Baidu/j280/src/top.v",
+        "ModuleLine": 1,
+        "ModuleName": "top",
+        "SubInsts": [
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 45,
+                "InstName": "[0].key_filter_inst",
+                "ModuleFile": "D:/Baidu/j280/src/key_filter.v",
+                "ModuleLine": 1,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 45,
+                "InstName": "[1].key_filter_inst",
+                "ModuleFile": "D:/Baidu/j280/src/key_filter.v",
+                "ModuleLine": 1,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 45,
+                "InstName": "[2].key_filter_inst",
+                "ModuleFile": "D:/Baidu/j280/src/key_filter.v",
+                "ModuleLine": 1,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 45,
+                "InstName": "[3].key_filter_inst",
+                "ModuleFile": "D:/Baidu/j280/src/key_filter.v",
+                "ModuleLine": 1,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 67,
+                "InstName": "adc_inst",
+                "ModuleFile": "D:/Baidu/j280/src/adc.v",
+                "ModuleLine": 1,
+                "ModuleName": "adc"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 161,
+                "InstName": "pid_pos_inst",
+                "ModuleFile": "D:/Baidu/j280/src/pid.v",
+                "ModuleLine": 21,
+                "ModuleName": "pid"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 367,
+                "InstName": "u_sin_pos",
+                "ModuleFile": "D:/Baidu/j280/src/sin_wave.v",
+                "ModuleLine": 19,
+                "ModuleName": "sin_wave"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 408,
+                "InstName": "pid_angle_inst",
+                "ModuleFile": "D:/Baidu/j280/src/pid.v",
+                "ModuleLine": 21,
+                "ModuleName": "pid"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 495,
+                "InstName": "motor_ctrl_A",
+                "ModuleFile": "D:/Baidu/j280/src/motor_ctrl.v",
+                "ModuleLine": 1,
+                "ModuleName": "motor_ctrl"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 511,
+                "InstName": "motor_ctrl_B",
+                "ModuleFile": "D:/Baidu/j280/src/motor_ctrl.v",
+                "ModuleLine": 1,
+                "ModuleName": "motor_ctrl"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 525,
+                "InstName": "encoder_1",
+                "ModuleFile": "D:/Baidu/j280/src/encoder.v",
+                "ModuleLine": 2,
+                "ModuleName": "encoder"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 537,
+                "InstName": "encoder_2",
+                "ModuleFile": "D:/Baidu/j280/src/encoder.v",
+                "ModuleLine": 2,
+                "ModuleName": "encoder"
+            },
+            {
+                "InstFile": "D:/Baidu/j280/src/top.v",
+                "InstLine": 580,
+                "InstName": "uart_inst",
+                "ModuleFile": "D:/Baidu/j280/src/uart.v",
+                "ModuleLine": 1,
+                "ModuleName": "uart",
+                "SubInsts": [
+                    {
+                        "InstFile": "D:/Baidu/j280/src/uart.v",
+                        "InstLine": 35,
+                        "InstName": "uart_tx_inst",
+                        "ModuleFile": "D:/Baidu/j280/src/uart_tx.v",
+                        "ModuleLine": 3,
+                        "ModuleName": "uart_tx"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "InstFile": "D:/Baidu/j280/src/uart_rx.v",
+        "InstLine": 3,
+        "InstName": "uart_rx",
+        "ModuleFile": "D:/Baidu/j280/src/uart_rx.v",
+        "ModuleLine": 3,
+        "ModuleName": "uart_rx"
+    }
+]

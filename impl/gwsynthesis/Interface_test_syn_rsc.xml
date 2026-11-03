@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="196" Alu="62" Lut="326" T_Register="991(196)" T_Alu="375(62)" T_Lut="2719(326)" T_PADD18="2(0)" T_MULT18X18="6(0)">
+ <SubModule name="[0].key_filter_inst" Register="21" Lut="39" T_Register="21(21)" T_Lut="39(39)"/>
+ <SubModule name="[1].key_filter_inst" Register="21" Lut="39" T_Register="21(21)" T_Lut="39(39)"/>
+ <SubModule name="[2].key_filter_inst" Register="21" Lut="39" T_Register="21(21)" T_Lut="39(39)"/>
+ <SubModule name="adc_inst" Register="49" Alu="12" Lut="62" T_Register="49(49)" T_Alu="12(12)" T_Lut="62(62)"/>
+ <SubModule name="pid_pos_inst" Register="286" Alu="137" Lut="760" PADD18="1" MULT18X18="2" T_Register="286(286)" T_Alu="137(137)" T_Lut="760(760)" T_PADD18="1(1)" T_MULT18X18="2(2)"/>
+ <SubModule name="u_sin_pos" Register="19" Lut="252" MULT18X18="1" T_Register="19(19)" T_Lut="252(252)" T_MULT18X18="1(1)"/>
+ <SubModule name="pid_angle_inst" Register="269" Alu="153" Lut="745" PADD18="1" MULT18X18="2" T_Register="269(269)" T_Alu="153(153)" T_Lut="745(745)" T_PADD18="1(1)" T_MULT18X18="2(2)"/>
+ <SubModule name="motor_ctrl_B" Register="14" Alu="11" Lut="24" MULT18X18="1" T_Register="14(14)" T_Alu="11(11)" T_Lut="24(24)" T_MULT18X18="1(1)"/>
+ <SubModule name="encoder_1" Register="24" Lut="52" T_Register="24(24)" T_Lut="52(52)"/>
+ <SubModule name="uart_inst" Register="51" Lut="338" T_Register="71(51)" T_Lut="381(338)">
+  <SubModule name="uart_tx_inst" Register="20" Lut="43" T_Register="20(20)" T_Lut="43(43)"/>
+ </SubModule>
+</Module>
